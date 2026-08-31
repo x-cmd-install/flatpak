@@ -1,0 +1,60 @@
+about:
+  description: Linux application sandboxing and distribution framework
+  license: LGPL-2.1
+  homepage: https://flatpak.org
+  head: 1a6ec6a
+  archived: false
+  latestVersion: 1.18.2
+  collectedAt: 2026-08-31T06:03:04Z
+timeline:
+  created: 2016-05-19
+  lastCommit: 2026-08-27
+  lastRelease: 2026-08-27
+popularity:
+  star: 5053
+  watcher: 89
+  fork: 520
+  release: 182
+  contributor: 271
+  pullRequest: 1173
+  issue: 3798
+language:
+  C: 4847670
+  Shell: 308355
+  Meson: 56893
+  Python: 46209
+  Yacc: 46057
+totalLine: 5305184
+recent:
+  last30d:
+    since: 2026-08-01
+    release: 3
+    mergedPR: 27
+    openPR: 14
+    closedIssue: 8
+    openIssue: 9
+    commit: 43
+  last90d:
+    since: 2026-06-02
+    release: 4
+    mergedPR: 60
+    openPR: 22
+    closedIssue: 22
+    openIssue: 23
+    commit: 189
+  last180d:
+    since: 2026-03-04
+    release: 12
+    mergedPR: 132
+    openPR: 29
+    closedIssue: 64
+    openIssue: 32
+    commit: 310
+  last360d:
+    since: 2025-09-05
+    release: 17
+    mergedPR: 208
+    openPR: 34
+    closedIssue: 143
+    openIssue: 67
+    commit: 424
