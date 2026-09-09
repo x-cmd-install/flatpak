@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1356656,
       "digest": "sha256:800ff8cb14c369a3c19984932ae2cbea1b0d38363daa57cfb8ef04b8d7f08e10",
-      "download_count": 586,
+      "download_count": 594,
       "created_at": "2026-08-27T19:47:37Z",
       "updated_at": "2026-08-27T19:47:37Z",
       "browser_download_url": "https://github.com/flatpak/flatpak/releases/download/1.18.2/flatpak-1.18.2.tar.xz"
@@ -114,8 +114,8 @@
   "body": "Bug fixes:\n\n* Validate GVariant structure of summaries before using generated variant\n  readers (#6779)\n\n* Fix crash in system helper when iterating cache directories (#6780)\n\n* Avoid corrupted output from non-UTF-8 characters in error messages (#6795)\n\n* Fix portal passing wrong file descriptor when sandbox-expose-fd-ro\n  triggers fd remapping collision (#6785)\n\n* Fix system helper tracking wrong D-Bus sender for pulls (#6781)\n\n* Fix extensions not being populated in the sandbox due to unhandled\n  EAGAIN from openat2 (#6787)\n\n* Fix build failure with GLib versions older than 2.72 (#6777)\n\n* Test infrastructure improvements (#6794, #6796)",
   "reactions": {
     "url": "https://api.github.com/repos/flatpak/flatpak/releases/378082645/reactions",
-    "total_count": 12,
-    "+1": 0,
+    "total_count": 13,
+    "+1": 1,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
