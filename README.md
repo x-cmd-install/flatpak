@@ -1,24 +1,102 @@
 # flatpak
 
+[中文版本](./README.cn.md)
+
 Linux application sandboxing and distribution framework
 
-- **Upstream**: <https://github.com/flatpak/flatpak>
-- **Homepage**: <https://flatpak.org>
-- **Latest release**: `1.18.2` (2026-08-27)
-- **Last commit**: 2026-09-02
-- **License**: LGPL-2.1
-- **Stars**: 5061 · **Forks**: 521 · **Open issues**: 3805 · **Contributors**: 271
+![flatpak](https://repo.x-cmd.io/flatpak.svg)
 
-## Installation
+## Install
 
 ```sh
 x install flatpak
 ```
 
-See <https://x-cmd.com/install/flatpak> for details.
+## Code insight
 
-## Data
+Total: **125,303** lines of code across **341** files in the top 5 languages.
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| C | 89,295 | 10,176 | 18,428 | 133 |
+| Xml | 12,880 | 1,250 | 1,919 | 58 |
+| CHeader | 11,082 | 2,362 | 1,446 | 78 |
+| Sh | 5,570 | 1,118 | 1,890 | 45 |
+| Meson | 2,171 | 84 | 215 | 27 |
 
-_Last regenerated: 2026-09-09T20:18:46Z._
+## OpenSSF Scorecard
+
+Overall score: **6 / 10**
+
+Lowest-scoring checks:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+
+## Source
+
+- **Upstream**: <https://github.com/flatpak/flatpak>
+- **Homepage**: <https://flatpak.org>
+- **License**: LGPL-2.1
+
+## Release
+
+- **Latest**: `1.18.2` (2026-08-27)
+- **Last commit**: 2026-09-02
+- **Assets in release**: 2
+
+## Popularity
+
+- **Stars**: 5,063 · **Forks**: 521 · **Open issues**: 3,805 · **Contributors**: 271
+
+## Totals (cumulative)
+
+- **Releases**: 182 · **Merged PRs**: 1758 · **Open PRs**: 85 · **Closed issues**: 2862 · **Open issues**: 943 · **Commits**: 8677
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 3 | 23 | 12 | 11 | 10 | 25 |
+| last60d | 2026-07-12 | 3 | 34 | 22 | 16 | 17 | 64 |
+| 90d | 2026-06-12 | 3 | 53 | 26 | 22 | 23 | 167 |
+| last180d | 2026-03-14 | 12 | 130 | 32 | 66 | 34 | 300 |
+| 360d | 2025-09-15 | 17 | 207 | 38 | 145 | 67 | 425 |
+| last720d | 2024-09-20 | 22 | 311 | 43 | 290 | 175 | 667 |
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [flatpak-1.18.2.tar.xz](https://github.com/flatpak/flatpak/releases/download/1.18.2/flatpak-1.18.2.tar.xz) | 1.3 MiB | `other` |
+| [flatpak-1.18.2.tar.xz.sha256sum](https://github.com/flatpak/flatpak/releases/download/1.18.2/flatpak-1.18.2.tar.xz.sha256sum) | 88 B | `other` |
+
+## Distribution status
+
+Reported by **333** distros on [repology.org](https://repology.org/project/flatpak). **45** are ✅ on the latest upstream release, **233** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.18.2` | ✅ latest |
+| Debian 14 | `1.18.2` | ✅ latest |
+| Debian 13 | `1.16.6` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.16.6` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.14.6` | ⚠️ outdated |
+| Arch | `1.18.2` | ✅ latest |
+| Fedora rawhide | `1.19.0` | devel |
+| Nix unstable | `1.18.1` | ⚠️ outdated |
+| Void | `1.18.2` | ✅ latest |
+| Alpine edge | `1.18.2` | ✅ latest |
+| openSUSE Tumbleweed | `1.18.2` | ✅ latest |
+
+## Improve this data
+
+Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `flatpak` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+
+- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/flatpak.yml> (or whichever path the index uses)
+
+The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:50:00Z._
