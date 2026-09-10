@@ -7,7 +7,7 @@ about:
   latestVersion: "1.18.2"
   latestRelease: "1.18.2"
   latestPrerelease: "1.19.0"
-  collectedAt: 2026-09-10T17:58:07Z
+  collectedAt: 2026-09-10T21:49:44Z
 timeline:
   created: 2016-05-19
   lastCommit: 2026-09-02
@@ -87,7 +87,7 @@ total:
   commit: 8677
 ---
 path: /home/runner/.x-repo/github.com/flatpak/flatpak
-collectedAt: 2026-09-10T17:58:29Z
+collectedAt: 2026-09-10T21:49:55Z
 loc:
   C:
     code: 89295
