@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 3 | 23 | 12 | 11 | 10 | 25 |
-| last60d | 2026-07-12 | 3 | 34 | 22 | 16 | 17 | 64 |
-| 90d | 2026-06-12 | 3 | 53 | 26 | 22 | 23 | 167 |
-| last180d | 2026-03-14 | 12 | 130 | 32 | 66 | 34 | 300 |
-| 360d | 2025-09-15 | 17 | 207 | 38 | 145 | 67 | 425 |
-| last720d | 2024-09-20 | 22 | 311 | 43 | 290 | 175 | 667 |
+| 30d | 2026-08-12 | 1 | 21 | 12 | 10 | 10 | 25 |
+| last60d | 2026-07-13 | 3 | 34 | 22 | 15 | 17 | 64 |
+| 90d | 2026-06-13 | 3 | 51 | 26 | 21 | 23 | 167 |
+| last180d | 2026-03-15 | 12 | 129 | 32 | 66 | 34 | 300 |
+| 360d | 2025-09-16 | 17 | 207 | 38 | 143 | 67 | 425 |
+| last720d | 2024-09-21 | 22 | 311 | 43 | 290 | 175 | 660 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:04:51Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T06:15:00Z._
