@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,063 · **Forks**: 521 · **Open issues**: 3,805 · **Contributors**: 271
+- **Stars**: 5,066 · **Forks**: 522 · **Open issues**: 3,805 · **Contributors**: 271
 
 ## Totals (cumulative)
 
-- **Releases**: 182 · **Merged PRs**: 1758 · **Open PRs**: 85 · **Closed issues**: 2862 · **Open issues**: 943 · **Commits**: 8677
+- **Releases**: 182 · **Merged PRs**: 1758 · **Open PRs**: 84 · **Closed issues**: 2862 · **Open issues**: 943 · **Commits**: 8677
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 20 | 12 | 9 | 10 | 25 |
-| last60d | 2026-07-15 | 3 | 34 | 21 | 15 | 17 | 64 |
-| 90d | 2026-06-15 | 3 | 48 | 25 | 18 | 22 | 167 |
-| last180d | 2026-03-17 | 11 | 129 | 32 | 66 | 34 | 300 |
-| 360d | 2025-09-18 | 17 | 207 | 38 | 142 | 66 | 425 |
-| last720d | 2024-09-23 | 22 | 310 | 43 | 289 | 175 | 660 |
+| 30d | 2026-08-15 | 1 | 20 | 11 | 9 | 10 | 12 |
+| last60d | 2026-07-16 | 3 | 34 | 20 | 15 | 16 | 62 |
+| 90d | 2026-06-16 | 3 | 47 | 24 | 18 | 22 | 149 |
+| last180d | 2026-03-18 | 11 | 128 | 31 | 66 | 34 | 295 |
+| 360d | 2025-09-19 | 17 | 207 | 37 | 142 | 66 | 424 |
+| last720d | 2024-09-24 | 22 | 310 | 42 | 289 | 175 | 660 |
 
 ## Release assets
 
@@ -71,24 +71,6 @@ Lowest-scoring checks:
 |-------|-----:|--------|
 | [flatpak-1.18.2.tar.xz](https://github.com/flatpak/flatpak/releases/download/1.18.2/flatpak-1.18.2.tar.xz) | 1.3 MiB | `other` |
 | [flatpak-1.18.2.tar.xz.sha256sum](https://github.com/flatpak/flatpak/releases/download/1.18.2/flatpak-1.18.2.tar.xz.sha256sum) | 88 B | `other` |
-
-## Distribution status
-
-Reported by **333** distros on [repology.org](https://repology.org/project/flatpak). **45** are ✅ on the latest upstream release, **233** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.18.2` | ✅ latest |
-| Debian 14 | `1.18.2` | ✅ latest |
-| Debian 13 | `1.16.6` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.16.6` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.14.6` | ⚠️ outdated |
-| Arch | `1.18.2` | ✅ latest |
-| Fedora rawhide | `1.19.0` | devel |
-| Nix unstable | `1.18.1` | ⚠️ outdated |
-| Void | `1.18.2` | ✅ latest |
-| Alpine edge | `1.18.2` | ✅ latest |
-| openSUSE Tumbleweed | `1.18.2` | ✅ latest |
 
 ## Improve this data
 
@@ -99,4 +81,4 @@ Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:18:23Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:31:56Z._

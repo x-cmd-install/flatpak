@@ -48,22 +48,22 @@ x install flatpak
 
 ## 流行度
 
-- **Star**: 5,063 · **Fork**: 521 · **开放 issue**: 3,805 · **贡献者**: 271
+- **Star**: 5,066 · **Fork**: 522 · **开放 issue**: 3,805 · **贡献者**: 271
 
 ## 累计统计
 
-- **发布数**: 182 · **已合并 PR**: 1758 · **开放 PR**: 85 · **已关闭 issue**: 2862 · **开放 issue**: 943 · **提交数**: 8677
+- **发布数**: 182 · **已合并 PR**: 1758 · **开放 PR**: 84 · **已关闭 issue**: 2862 · **开放 issue**: 943 · **提交数**: 8677
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 20 | 12 | 9 | 10 | 25 |
-| last60d | 2026-07-15 | 3 | 34 | 21 | 15 | 17 | 64 |
-| 90d | 2026-06-15 | 3 | 48 | 25 | 18 | 22 | 167 |
-| last180d | 2026-03-17 | 11 | 129 | 32 | 66 | 34 | 300 |
-| 360d | 2025-09-18 | 17 | 207 | 38 | 142 | 66 | 425 |
-| last720d | 2024-09-23 | 22 | 310 | 43 | 289 | 175 | 660 |
+| 30d | 2026-08-15 | 1 | 20 | 11 | 9 | 10 | 12 |
+| last60d | 2026-07-16 | 3 | 34 | 20 | 15 | 16 | 62 |
+| 90d | 2026-06-16 | 3 | 47 | 24 | 18 | 22 | 149 |
+| last180d | 2026-03-18 | 11 | 128 | 31 | 66 | 34 | 295 |
+| 360d | 2025-09-19 | 17 | 207 | 37 | 142 | 66 | 424 |
+| last720d | 2024-09-24 | 22 | 310 | 42 | 289 | 175 | 660 |
 
 ## Release 资产
 
@@ -71,24 +71,6 @@ x install flatpak
 |------|-----:|----------|
 | [flatpak-1.18.2.tar.xz](https://github.com/flatpak/flatpak/releases/download/1.18.2/flatpak-1.18.2.tar.xz) | 1.3 MiB | `other` |
 | [flatpak-1.18.2.tar.xz.sha256sum](https://github.com/flatpak/flatpak/releases/download/1.18.2/flatpak-1.18.2.tar.xz.sha256sum) | 88 B | `other` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/flatpak) 上共有 **333** 个发行版报告此项目。**45** 个 ✅ 已是最新上游版本，**233** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.18.2` | ✅ latest |
-| Debian 14 | `1.18.2` | ✅ latest |
-| Debian 13 | `1.16.6` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.16.6` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.14.6` | ⚠️ outdated |
-| Arch | `1.18.2` | ✅ latest |
-| Fedora rawhide | `1.19.0` | devel |
-| Nix unstable | `1.18.1` | ⚠️ outdated |
-| Void | `1.18.2` | ✅ latest |
-| Alpine edge | `1.18.2` | ✅ latest |
-| openSUSE Tumbleweed | `1.18.2` | ✅ latest |
 
 ## 改进这些数据
 
@@ -99,4 +81,4 @@ flatpak 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T06:18:24Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T06:31:57Z._
