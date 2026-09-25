@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1359944,
       "digest": "sha256:0f03c5e50e04225013cc3bd9155a94f0036923060722ced3278c5c66c68cf8fb",
-      "download_count": 345,
+      "download_count": 499,
       "created_at": "2026-09-22T11:07:19Z",
       "updated_at": "2026-09-22T11:07:19Z",
       "browser_download_url": "https://github.com/flatpak/flatpak/releases/download/1.18.3/flatpak-1.18.3.tar.xz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 88,
       "digest": "sha256:30c9fed7c81d0b596a17d64ebafb00600f29c284d6357b46f9f4854dc508a0ca",
-      "download_count": 4,
+      "download_count": 5,
       "created_at": "2026-09-22T11:07:18Z",
       "updated_at": "2026-09-22T11:07:18Z",
       "browser_download_url": "https://github.com/flatpak/flatpak/releases/download/1.18.3/flatpak-1.18.3.tar.xz.sha256sum"
@@ -114,13 +114,13 @@
   "body": "Bug fixes:\n\n* Update Meson wrap subprojects for projects that are normally taken from\n  the host system:\n  - bubblewrap 0.12.0 (CVE-2026-87766)\n  - xdg-dbus-proxy 0.1.8 (CVE-2026-93676)\n\n* Fix regressions in 1.18.2 when building apps/runtimes, especially on\n  SELinux systems or when the runtime is not installed per-user\n  (#6818)\n\n* Fix subsandbox startup (`flatpak-spawn`) when run from an app that\n  was configured with `--no-talk-name` or `--system-no-talk-name` (#6776)\n\n* Fix a crash when a bundle is installed with explicit key bytes (#6842)\n\n* Documentation updates (code of conduct, contributor guidelines)",
   "reactions": {
     "url": "https://api.github.com/repos/flatpak/flatpak/releases/393658336/reactions",
-    "total_count": 7,
+    "total_count": 8,
     "+1": 4,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
     "confused": 0,
-    "heart": 3,
+    "heart": 4,
     "rocket": 0,
     "eyes": 0
   }
