@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,073 · **Forks**: 525 · **Open issues**: 3,814 · **Contributors**: 273
+- **Stars**: 5,076 · **Forks**: 524 · **Open issues**: 3,814 · **Contributors**: 273
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-27 | 2 | 22 | 2 | 8 | 9 | 0 |
-| last60d | 2026-07-28 | 4 | 57 | 10 | 21 | 15 | 0 |
-| 90d | 2026-06-28 | 4 | 66 | 15 | 23 | 22 | 0 |
-| last180d | 2026-03-30 | 12 | 144 | 22 | 68 | 36 | 0 |
-| 360d | 2025-10-01 | 18 | 230 | 28 | 143 | 64 | 0 |
-| last720d | 2024-10-06 | 23 | 333 | 34 | 292 | 170 | 684 |
+| 30d | 2026-08-28 | 1 | 22 | 2 | 8 | 9 | 24 |
+| last60d | 2026-07-29 | 4 | 57 | 10 | 20 | 15 | 87 |
+| 90d | 2026-06-29 | 4 | 65 | 15 | 23 | 22 | 175 |
+| last180d | 2026-03-31 | 12 | 143 | 22 | 67 | 36 | 313 |
+| 360d | 2025-10-02 | 18 | 230 | 28 | 143 | 64 | 451 |
+| last720d | 2024-10-07 | 23 | 333 | 34 | 292 | 170 | 684 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260926.yml` · 2026-09-26T05:58:17Z._
+_Snapshot: `data/card/260927.yml` · 2026-09-27T06:20:26Z._
