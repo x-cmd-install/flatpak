@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1363232,
       "digest": "sha256:b899a7a00c48d2c626cb8ec33fe556720b376c25805d7222430c0fdca4c6ac8d",
-      "download_count": 733,
+      "download_count": 844,
       "created_at": "2026-09-28T13:04:39Z",
       "updated_at": "2026-09-28T13:04:40Z",
       "browser_download_url": "https://github.com/flatpak/flatpak/releases/download/1.18.4/flatpak-1.18.4.tar.xz"
