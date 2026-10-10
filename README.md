@@ -14,14 +14,14 @@ x install flatpak
 
 ## Code insight
 
-Total: **126,006** lines of code across **347** files in the top 5 languages.
+Total: **126,129** lines of code across **347** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 89,800 | 10,333 | 18,545 | 135 |
+| C | 89,907 | 10,347 | 18,572 | 135 |
 | Xml | 12,896 | 1,250 | 1,921 | 58 |
-| CHeader | 11,112 | 2,362 | 1,454 | 80 |
-| Sh | 5,715 | 1,130 | 1,926 | 47 |
+| CHeader | 11,119 | 2,362 | 1,454 | 80 |
+| Sh | 5,724 | 1,130 | 1,932 | 47 |
 | Meson | 2,179 | 84 | 215 | 27 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.19.2` (2026-09-28)
-- **Last commit**: 2026-10-06
+- **Last commit**: 2026-10-09
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,084 · **Forks**: 527 · **Open issues**: 3,821 · **Contributors**: 274
+- **Stars**: 5,087 · **Forks**: 527 · **Open issues**: 3,822 · **Contributors**: 276
 
 ## Totals (cumulative)
 
-- **Releases**: 185 · **Merged PRs**: 1788 · **Open PRs**: 82 · **Closed issues**: 2873 · **Open issues**: 948 · **Commits**: 8734
+- **Releases**: 185 · **Merged PRs**: 1791 · **Open PRs**: 78 · **Closed issues**: 2874 · **Open issues**: 948 · **Commits**: 8737
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-09 | 3 | 23 | 8 | 5 | 11 | 41 |
-| last60d | 2026-08-10 | 6 | 52 | 13 | 19 | 19 | 81 |
-| 90d | 2026-07-11 | 6 | 64 | 20 | 24 | 25 | 121 |
-| last180d | 2026-04-12 | 8 | 117 | 26 | 53 | 40 | 287 |
-| 360d | 2025-10-14 | 20 | 228 | 33 | 140 | 67 | 471 |
-| last720d | 2024-10-19 | 25 | 334 | 40 | 284 | 172 | 700 |
+| 30d | 2026-09-10 | 3 | 25 | 5 | 6 | 11 | 43 |
+| last60d | 2026-08-11 | 6 | 53 | 9 | 20 | 18 | 83 |
+| 90d | 2026-07-12 | 6 | 67 | 16 | 25 | 25 | 124 |
+| last180d | 2026-04-13 | 8 | 112 | 22 | 52 | 40 | 290 |
+| 360d | 2025-10-15 | 20 | 231 | 29 | 140 | 67 | 474 |
+| last720d | 2024-10-20 | 25 | 337 | 36 | 284 | 172 | 703 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261009.yml` · 2026-10-09T07:13:45Z._
+_Snapshot: `data/card/261010.yml` · 2026-10-10T06:52:51Z._
