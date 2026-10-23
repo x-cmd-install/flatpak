@@ -14,14 +14,14 @@ x install flatpak
 
 ## Code insight
 
-Total: **126,408** lines of code across **350** files in the top 5 languages.
+Total: **126,406** lines of code across **350** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 90,109 | 10,360 | 18,609 | 136 |
+| C | 90,111 | 10,360 | 18,609 | 136 |
 | Xml | 12,874 | 1,250 | 1,925 | 57 |
 | CHeader | 11,118 | 2,362 | 1,454 | 80 |
-| Sh | 5,844 | 1,143 | 1,979 | 50 |
+| Sh | 5,840 | 1,141 | 1,979 | 50 |
 | Meson | 2,114 | 83 | 213 | 27 |
 
 ## OpenSSF Scorecard
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.19.2` (2026-09-28)
-- **Last commit**: 2026-10-19
+- **Last commit**: 2026-10-22
 - **Assets in release**: 2
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 185 · **Merged PRs**: 1811 · **Open PRs**: 96 · **Closed issues**: 2886 · **Open issues**: 945 · **Commits**: 8762
+- **Releases**: 185 · **Merged PRs**: 1813 · **Open PRs**: 97 · **Closed issues**: 2886 · **Open issues**: 945 · **Commits**: 8764
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 3 | 29 | 23 | 5 | 15 | 42 |
-| last60d | 2026-08-23 | 4 | 55 | 26 | 13 | 23 | 73 |
-| 90d | 2026-07-24 | 6 | 86 | 32 | 27 | 27 | 145 |
-| last180d | 2026-04-25 | 8 | 125 | 39 | 52 | 44 | 305 |
-| 360d | 2025-10-27 | 20 | 247 | 47 | 137 | 67 | 491 |
-| last720d | 2024-11-01 | 25 | 354 | 54 | 286 | 169 | 724 |
+| 30d | 2026-09-23 | 2 | 28 | 24 | 5 | 14 | 44 |
+| last60d | 2026-08-24 | 4 | 55 | 27 | 12 | 23 | 75 |
+| 90d | 2026-07-25 | 6 | 88 | 33 | 27 | 27 | 147 |
+| last180d | 2026-04-26 | 8 | 127 | 40 | 52 | 44 | 307 |
+| 360d | 2025-10-28 | 20 | 248 | 48 | 137 | 67 | 493 |
+| last720d | 2024-11-02 | 25 | 356 | 55 | 286 | 169 | 726 |
 
 ## Release assets
 
@@ -71,6 +71,24 @@ Lowest-scoring checks:
 |-------|-----:|--------|
 | [flatpak-1.18.4.tar.xz](https://github.com/flatpak/flatpak/releases/download/1.18.4/flatpak-1.18.4.tar.xz) | 1.3 MiB | `other` |
 | [flatpak-1.18.4.tar.xz.sha256sum](https://github.com/flatpak/flatpak/releases/download/1.18.4/flatpak-1.18.4.tar.xz.sha256sum) | 88 B | `other` |
+
+## Distribution status
+
+Reported by **329** distros on [repology.org](https://repology.org/project/flatpak). **64** are ✅ on the latest upstream release, **209** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.18.4` | ✅ latest |
+| Debian 14 | `1.18.4` | ✅ latest |
+| Debian 13 | `1.16.6` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.16.6` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.14.6` | ⚠️ outdated |
+| Arch | `1.18.4` | ✅ latest |
+| Fedora rawhide | `1.19.2` | devel |
+| Nix unstable | `1.18.4` | ✅ latest |
+| Void | `1.18.4` | ✅ latest |
+| Alpine edge | `1.18.4` | ✅ latest |
+| openSUSE Tumbleweed | `1.18.4` | ✅ latest |
 
 ## Improve this data
 
@@ -81,4 +99,4 @@ Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:53:01Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:54:20Z._
