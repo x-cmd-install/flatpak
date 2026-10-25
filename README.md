@@ -14,11 +14,11 @@ x install flatpak
 
 ## Code insight
 
-Total: **126,433** lines of code across **351** files in the top 5 languages.
+Total: **126,435** lines of code across **351** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 90,138 | 10,365 | 18,617 | 137 |
+| C | 90,140 | 10,365 | 18,617 | 137 |
 | Xml | 12,874 | 1,250 | 1,925 | 57 |
 | CHeader | 11,118 | 2,362 | 1,454 | 80 |
 | Sh | 5,838 | 1,142 | 1,978 | 50 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.19.2` (2026-09-28)
-- **Last commit**: 2026-10-23
+- **Last commit**: 2026-10-24
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,098 · **Forks**: 527 · **Open issues**: 3,831 · **Contributors**: 278
+- **Stars**: 5,098 · **Forks**: 527 · **Open issues**: 3,831 · **Contributors**: 279
 
 ## Totals (cumulative)
 
-- **Releases**: 185 · **Merged PRs**: 1814 · **Open PRs**: 96 · **Closed issues**: 2886 · **Open issues**: 945 · **Commits**: 8765
+- **Releases**: 185 · **Merged PRs**: 1815 · **Open PRs**: 95 · **Closed issues**: 2886 · **Open issues**: 945 · **Commits**: 8766
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 2 | 29 | 23 | 5 | 14 | 45 |
-| last60d | 2026-08-25 | 4 | 54 | 25 | 12 | 23 | 76 |
-| 90d | 2026-07-26 | 6 | 89 | 32 | 27 | 27 | 148 |
-| last180d | 2026-04-27 | 8 | 128 | 39 | 52 | 44 | 308 |
-| 360d | 2025-10-29 | 20 | 247 | 47 | 137 | 67 | 494 |
-| last720d | 2024-11-03 | 25 | 357 | 54 | 286 | 169 | 727 |
+| 30d | 2026-09-25 | 2 | 29 | 22 | 4 | 13 | 27 |
+| last60d | 2026-08-26 | 4 | 54 | 24 | 12 | 22 | 74 |
+| 90d | 2026-07-27 | 6 | 89 | 31 | 26 | 27 | 138 |
+| last180d | 2026-04-28 | 8 | 129 | 38 | 51 | 44 | 302 |
+| 360d | 2025-10-30 | 20 | 246 | 46 | 137 | 67 | 488 |
+| last720d | 2024-11-04 | 25 | 358 | 53 | 286 | 169 | 728 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261024.yml` · 2026-10-24T05:45:22Z._
+_Snapshot: `data/card/261025.yml` · 2026-10-25T05:49:27Z._
