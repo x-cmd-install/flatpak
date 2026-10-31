@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.19.2` (2026-09-28)
-- **Last commit**: 2026-10-28
+- **Last commit**: 2026-10-30
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,102 · **Forks**: 529 · **Open issues**: 3,836 · **Contributors**: 279
+- **Stars**: 5,104 · **Forks**: 529 · **Open issues**: 3,836 · **Contributors**: 279
 
 ## Totals (cumulative)
 
-- **Releases**: 185 · **Merged PRs**: 1816 · **Open PRs**: 100 · **Closed issues**: 2887 · **Open issues**: 949 · **Commits**: 8767
+- **Releases**: 185 · **Merged PRs**: 1817 · **Open PRs**: 100 · **Closed issues**: 2887 · **Open issues**: 949 · **Commits**: 8768
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 0 | 24 | 27 | 4 | 18 | 28 |
-| last60d | 2026-08-31 | 3 | 53 | 28 | 12 | 27 | 75 |
-| 90d | 2026-08-01 | 6 | 86 | 35 | 24 | 32 | 139 |
-| last180d | 2026-05-03 | 8 | 130 | 43 | 50 | 47 | 303 |
-| 360d | 2025-11-04 | 19 | 245 | 51 | 136 | 72 | 489 |
-| last720d | 2024-11-09 | 25 | 356 | 58 | 279 | 174 | 729 |
+| 30d | 2026-10-01 | 0 | 24 | 27 | 4 | 18 | 29 |
+| last60d | 2026-09-01 | 3 | 54 | 28 | 11 | 26 | 76 |
+| 90d | 2026-08-02 | 6 | 87 | 35 | 24 | 32 | 140 |
+| last180d | 2026-05-04 | 8 | 130 | 42 | 49 | 47 | 304 |
+| 360d | 2025-11-05 | 19 | 246 | 51 | 136 | 72 | 490 |
+| last720d | 2024-11-10 | 25 | 357 | 58 | 279 | 173 | 730 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **333** distros on [repology.org](https://repology.org/project/flatpak). **64** are ✅ on the latest upstream release, **211** are ⚠️ on an older version.
+Reported by **329** distros on [repology.org](https://repology.org/project/flatpak). **64** are ✅ on the latest upstream release, **211** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -99,4 +99,4 @@ Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T06:58:34Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T06:48:05Z._
