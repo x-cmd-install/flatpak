@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.19.2` (2026-09-28)
-- **Last commit**: 2026-10-30
+- **Last commit**: 2026-10-31
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,104 · **Forks**: 529 · **Open issues**: 3,836 · **Contributors**: 279
+- **Stars**: 5,104 · **Forks**: 530 · **Open issues**: 3,837 · **Contributors**: 280
 
 ## Totals (cumulative)
 
-- **Releases**: 185 · **Merged PRs**: 1817 · **Open PRs**: 100 · **Closed issues**: 2887 · **Open issues**: 949 · **Commits**: 8768
+- **Releases**: 185 · **Merged PRs**: 1819 · **Open PRs**: 100 · **Closed issues**: 2887 · **Open issues**: 950 · **Commits**: 8770
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 24 | 27 | 4 | 18 | 29 |
-| last60d | 2026-09-01 | 3 | 54 | 28 | 11 | 26 | 76 |
-| 90d | 2026-08-02 | 6 | 87 | 35 | 24 | 32 | 140 |
-| last180d | 2026-05-04 | 8 | 130 | 42 | 49 | 47 | 304 |
-| 360d | 2025-11-05 | 19 | 246 | 51 | 136 | 72 | 490 |
-| last720d | 2024-11-10 | 25 | 357 | 58 | 279 | 173 | 730 |
+| 30d | 2026-10-02 | 0 | 26 | 27 | 4 | 18 | 29 |
+| last60d | 2026-09-02 | 3 | 55 | 28 | 11 | 27 | 76 |
+| 90d | 2026-08-03 | 6 | 88 | 35 | 24 | 33 | 131 |
+| last180d | 2026-05-05 | 8 | 132 | 42 | 49 | 48 | 300 |
+| 360d | 2025-11-06 | 19 | 247 | 51 | 135 | 73 | 489 |
+| last720d | 2024-11-11 | 25 | 359 | 58 | 279 | 174 | 732 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:48:05Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T07:22:42Z._
