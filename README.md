@@ -14,11 +14,11 @@ x install flatpak
 
 ## Code insight
 
-Total: **126,443** lines of code across **351** files in the top 5 languages.
+Total: **126,444** lines of code across **351** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 90,135 | 10,365 | 18,616 | 137 |
+| C | 90,136 | 10,365 | 18,616 | 137 |
 | Xml | 12,874 | 1,250 | 1,925 | 57 |
 | CHeader | 11,118 | 2,362 | 1,454 | 80 |
 | Sh | 5,851 | 1,142 | 1,981 | 50 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.19.2` (2026-09-28)
-- **Last commit**: 2026-10-31
+- **Last commit**: 2026-11-06
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,108 · **Forks**: 533 · **Open issues**: 3,839 · **Contributors**: 280
+- **Stars**: 5,108 · **Forks**: 535 · **Open issues**: 3,839 · **Contributors**: 280
 
 ## Totals (cumulative)
 
-- **Releases**: 185 · **Merged PRs**: 1819 · **Open PRs**: 106 · **Closed issues**: 2886 · **Open issues**: 953 · **Commits**: 8770
+- **Releases**: 185 · **Merged PRs**: 1820 · **Open PRs**: 108 · **Closed issues**: 2886 · **Open issues**: 953 · **Commits**: 8771
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 26 | 31 | 2 | 19 | 29 |
-| last60d | 2026-09-07 | 3 | 53 | 34 | 9 | 28 | 76 |
-| 90d | 2026-08-08 | 6 | 83 | 39 | 24 | 36 | 131 |
-| last180d | 2026-05-10 | 7 | 129 | 48 | 49 | 48 | 300 |
-| 360d | 2025-11-11 | 19 | 245 | 56 | 133 | 76 | 489 |
-| last720d | 2024-11-16 | 25 | 359 | 63 | 278 | 177 | 732 |
+| 30d | 2026-10-08 | 0 | 27 | 33 | 2 | 19 | 30 |
+| last60d | 2026-09-08 | 3 | 54 | 36 | 9 | 28 | 77 |
+| 90d | 2026-08-09 | 6 | 84 | 41 | 23 | 36 | 132 |
+| last180d | 2026-05-11 | 7 | 130 | 50 | 48 | 48 | 301 |
+| 360d | 2025-11-12 | 19 | 245 | 58 | 132 | 76 | 490 |
+| last720d | 2024-11-17 | 25 | 360 | 65 | 278 | 176 | 733 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **329** distros on [repology.org](https://repology.org/project/flatpak). **62** are ✅ on the latest upstream release, **213** are ⚠️ on an older version.
+Reported by **330** distros on [repology.org](https://repology.org/project/flatpak). **67** are ✅ on the latest upstream release, **209** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -99,4 +99,4 @@ Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:54:42Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T07:11:36Z._
