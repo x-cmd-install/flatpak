@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,109 · **Forks**: 533 · **Open issues**: 3,843 · **Contributors**: 282
+- **Stars**: 5,108 · **Forks**: 533 · **Open issues**: 3,843 · **Contributors**: 282
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 29 | 29 | 4 | 16 | 30 |
-| last60d | 2026-09-12 | 3 | 60 | 35 | 12 | 28 | 88 |
-| 90d | 2026-08-13 | 4 | 85 | 39 | 24 | 35 | 123 |
-| last180d | 2026-05-15 | 7 | 136 | 47 | 50 | 47 | 306 |
-| 360d | 2025-11-16 | 19 | 251 | 56 | 136 | 76 | 495 |
-| last720d | 2024-11-21 | 25 | 368 | 63 | 281 | 176 | 745 |
+| 30d | 2026-10-13 | 0 | 28 | 29 | 4 | 16 | 30 |
+| last60d | 2026-09-13 | 3 | 60 | 35 | 12 | 28 | 88 |
+| 90d | 2026-08-14 | 4 | 85 | 39 | 24 | 35 | 123 |
+| last180d | 2026-05-16 | 7 | 135 | 47 | 50 | 47 | 306 |
+| 360d | 2025-11-17 | 19 | 251 | 56 | 136 | 76 | 495 |
+| last720d | 2024-11-22 | 25 | 368 | 63 | 280 | 176 | 745 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **330** distros on [repology.org](https://repology.org/project/flatpak). **67** are ✅ on the latest upstream release, **209** are ⚠️ on an older version.
+Reported by **328** distros on [repology.org](https://repology.org/project/flatpak). **67** are ✅ on the latest upstream release, **207** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -99,4 +99,4 @@ Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:44:39Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T09:08:43Z._
