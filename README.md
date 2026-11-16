@@ -14,7 +14,7 @@ x install flatpak
 
 ## Code insight
 
-Total: **126,973** lines of code across **352** files in the top 5 languages.
+Total: **126,974** lines of code across **352** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.19.2` (2026-09-28)
-- **Last commit**: 2026-11-12
+- **Last commit**: 2026-11-15
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,111 · **Forks**: 532 · **Open issues**: 3,845 · **Contributors**: 282
+- **Stars**: 5,111 · **Forks**: 533 · **Open issues**: 3,846 · **Contributors**: 282
 
 ## Totals (cumulative)
 
-- **Releases**: 185 · **Merged PRs**: 1829 · **Open PRs**: 107 · **Closed issues**: 2894 · **Open issues**: 951 · **Commits**: 8786
+- **Releases**: 185 · **Merged PRs**: 1831 · **Open PRs**: 106 · **Closed issues**: 2895 · **Open issues**: 951 · **Commits**: 8788
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 22 | 19 | 4 | 17 | 19 |
-| last60d | 2026-09-16 | 3 | 60 | 36 | 12 | 29 | 72 |
-| 90d | 2026-08-17 | 4 | 81 | 39 | 21 | 37 | 100 |
-| last180d | 2026-05-19 | 7 | 136 | 48 | 45 | 49 | 307 |
-| 360d | 2025-11-20 | 19 | 244 | 57 | 133 | 77 | 484 |
-| last720d | 2024-11-25 | 25 | 369 | 64 | 281 | 176 | 748 |
+| 30d | 2026-10-17 | 0 | 24 | 18 | 4 | 18 | 0 |
+| last60d | 2026-09-17 | 3 | 62 | 35 | 9 | 30 | 0 |
+| 90d | 2026-08-18 | 4 | 80 | 38 | 21 | 38 | 0 |
+| last180d | 2026-05-20 | 7 | 138 | 47 | 45 | 50 | 0 |
+| 360d | 2025-11-21 | 19 | 246 | 56 | 133 | 78 | 0 |
+| last720d | 2024-11-26 | 25 | 369 | 63 | 281 | 177 | 750 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T08:08:05Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T08:41:50Z._
