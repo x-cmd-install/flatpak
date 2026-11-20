@@ -1,15 +1,23 @@
-- repo: amazon_2
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: flatpak
+  binnames:
+    - flatpak
+    - flatpak-tests
+    - gir1.2-flatpak-1.0
+    - libflatpak-dev
+    - libflatpak-doc
+    - libflatpak0
   visiblename: flatpak
-  version: 1.0.9
-  origversion: 1.0.9-10.amzn2
+  version: 1.16.6
+  origversion: 1.16.6-1~deb13u3
   status: outdated
-  summary: Application deployment framework for desktop apps
-  licenses:
-    - LGPLv2+
+  maintainers:
+    - pkg-utopia-maintainers@lists.alioth.debian.org
+    - mak@debian.org
+    - smcv@debian.org
   categories:
-    - Unspecified
-  vulnerable: true
+    - misc
 - repo: aerynos
   srcname: flatpak
   visiblename: flatpak
@@ -20,18 +28,17 @@
   licenses:
     - LGPL-2.0-or-later
     - LGPL-2.1-or-later
-- repo: aosc
-  srcname: app-admin/flatpak
+- repo: arch
+  subrepo: extra
+  srcname: flatpak
   binname: flatpak
   visiblename: flatpak
   version: 1.18.4
-  origversion: null
+  origversion: 1:1.18.4-2
   status: newest
-  summary: Application deployment framework for desktop applications
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - admin
+  summary: Linux application sandboxing and distribution framework (formerly xdg-app)
+  licenses:
+    - LGPL-2.1-or-later
 - repo: alpine_3_23
   subrepo: community
   srcname: flatpak
@@ -520,6 +527,17 @@
     - LGPL-2.1-or-later
   categories:
     - Development/Tools
+- repo: arch
+  subrepo: extra
+  srcname: flatpak
+  binname: flatpak-docs
+  visiblename: flatpak-docs
+  version: 1.18.4
+  origversion: 1:1.18.4-2
+  status: newest
+  summary: Linux application sandboxing and distribution framework (formerly xdg-app) (documentation)
+  licenses:
+    - LGPL-2.1-or-later
 - repo: altsisyphus
   srcname: flatpak
   binnames:
@@ -540,6 +558,18 @@
     - LGPL-2.1-or-later
   categories:
     - Development/Tools
+- repo: aosc
+  srcname: app-admin/flatpak
+  binname: flatpak
+  visiblename: flatpak
+  version: 1.18.4
+  origversion: null
+  status: newest
+  summary: Application deployment framework for desktop applications
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - admin
 - repo: apertis_v2026
   subrepo: v2026/target
   srcname: flatpak
@@ -558,28 +588,6 @@
     - pkg-utopia-maintainers@lists.alioth.debian.org
     - mak@debian.org
     - smcv@debian.org
-- repo: arch
-  subrepo: extra
-  srcname: flatpak
-  binname: flatpak
-  visiblename: flatpak
-  version: 1.18.4
-  origversion: 1:1.18.4-2
-  status: newest
-  summary: Linux application sandboxing and distribution framework (formerly xdg-app)
-  licenses:
-    - LGPL-2.1-or-later
-- repo: arch
-  subrepo: extra
-  srcname: flatpak
-  binname: flatpak-docs
-  visiblename: flatpak-docs
-  version: 1.18.4
-  origversion: 1:1.18.4-2
-  status: newest
-  summary: Linux application sandboxing and distribution framework (formerly xdg-app) (documentation)
-  licenses:
-    - LGPL-2.1-or-later
 - repo: aur
   srcname: flatpak-git
   binname: flatpak-git
@@ -595,23 +603,23 @@
 - repo: artix
   subrepo: world
   srcname: flatpak
-  binname: flatpak-docs
-  visiblename: flatpak-docs
-  version: 1.18.4
-  origversion: 1:1.18.4-2
-  status: newest
-  summary: Linux application sandboxing and distribution framework (formerly xdg-app) (documentation)
-  licenses:
-    - LGPL-2.1-or-later
-- repo: artix
-  subrepo: world
-  srcname: flatpak
   binname: flatpak
   visiblename: flatpak
   version: 1.18.4
   origversion: 1:1.18.4-2
   status: newest
   summary: Linux application sandboxing and distribution framework (formerly xdg-app)
+  licenses:
+    - LGPL-2.1-or-later
+- repo: artix
+  subrepo: world
+  srcname: flatpak
+  binname: flatpak-docs
+  visiblename: flatpak-docs
+  version: 1.18.4
+  origversion: 1:1.18.4-2
+  status: newest
+  summary: Linux application sandboxing and distribution framework (formerly xdg-app) (documentation)
   licenses:
     - LGPL-2.1-or-later
 - repo: centos_stream_10
@@ -949,17 +957,6 @@
     - LGPL-2.1-or-later
   categories:
     - Unspecified
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: flatpak
-  binname: flatpak-docs
-  visiblename: flatpak-docs
-  version: 1.18.4
-  origversion: 1:1.18.4-2
-  status: newest
-  summary: Linux application sandboxing and distribution framework (formerly xdg-app) (documentation)
-  licenses:
-    - LGPL-2.1-or-later
 - repo: fedora_43
   subrepo: updates
   srcname: flatpak
@@ -980,25 +977,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: release
-  srcname: flatpak
-  binnames:
-    - flatpak
-    - flatpak-devel
-    - flatpak-libs
-    - flatpak-selinux
-    - flatpak-session-helper
-    - flatpak-tests
-  visiblename: flatpak
-  version: 1.17.6
-  origversion: 1.17.6-1.fc44
-  status: legacy
-  summary: Application deployment framework for desktop apps
-  licenses:
-    - LGPL-2.1-or-later
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: updates
   srcname: flatpak
   binnames:
@@ -1012,6 +990,25 @@
   version: 1.18.4
   origversion: 1.18.4-1.fc44
   status: newest
+  summary: Application deployment framework for desktop apps
+  licenses:
+    - LGPL-2.1-or-later
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: flatpak
+  binnames:
+    - flatpak
+    - flatpak-devel
+    - flatpak-libs
+    - flatpak-selinux
+    - flatpak-session-helper
+    - flatpak-tests
+  visiblename: flatpak
+  version: 1.17.6
+  origversion: 1.17.6-1.fc44
+  status: legacy
   summary: Application deployment framework for desktop apps
   licenses:
     - LGPL-2.1-or-later
@@ -1111,17 +1108,6 @@
     - demm@kaosx.us
   licenses:
     - GPL
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: flatpak
-  binname: flatpak
-  visiblename: flatpak
-  version: 1.18.4
-  origversion: 1:1.18.4-2
-  status: newest
-  summary: Linux application sandboxing and distribution framework (formerly xdg-app)
-  licenses:
-    - LGPL-2.1-or-later
 - repo: kiss_community
   subrepo: community
   srcname: flatpak
@@ -1227,23 +1213,23 @@
 - repo: manjaro_stable
   subrepo: extra
   srcname: flatpak
-  binname: flatpak
-  visiblename: flatpak
-  version: 1.18.4
-  origversion: 1:1.18.4-1
-  status: newest
-  summary: Linux application sandboxing and distribution framework (formerly xdg-app)
-  licenses:
-    - LGPL-2.1-or-later
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: flatpak
   binname: flatpak-docs
   visiblename: flatpak-docs
   version: 1.18.4
   origversion: 1:1.18.4-1
   status: newest
   summary: Linux application sandboxing and distribution framework (formerly xdg-app) (documentation)
+  licenses:
+    - LGPL-2.1-or-later
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: flatpak
+  binname: flatpak
+  visiblename: flatpak
+  version: 1.18.4
+  origversion: 1:1.18.4-1
+  status: newest
+  summary: Linux application sandboxing and distribution framework (formerly xdg-app)
   licenses:
     - LGPL-2.1-or-later
 - repo: manjaro_testing
@@ -1258,6 +1244,28 @@
   licenses:
     - LGPL-2.1-or-later
 - repo: manjaro_testing
+  subrepo: extra
+  srcname: flatpak
+  binname: flatpak
+  visiblename: flatpak
+  version: 1.18.4
+  origversion: 1:1.18.4-2
+  status: newest
+  summary: Linux application sandboxing and distribution framework (formerly xdg-app)
+  licenses:
+    - LGPL-2.1-or-later
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: flatpak
+  binname: flatpak-docs
+  visiblename: flatpak-docs
+  version: 1.18.4
+  origversion: 1:1.18.4-2
+  status: newest
+  summary: Linux application sandboxing and distribution framework (formerly xdg-app) (documentation)
+  licenses:
+    - LGPL-2.1-or-later
+- repo: manjaro_unstable
   subrepo: extra
   srcname: flatpak
   binname: flatpak
@@ -1301,26 +1309,6 @@
     - getchoo@tuta.io
   licenses:
     - LGPL-2.1-or-later
-- repo: raspbian_testing
-  subrepo: main
-  srcname: flatpak
-  binnames:
-    - flatpak
-    - flatpak-tests
-    - gir1.2-flatpak-1.0
-    - libflatpak-dev
-    - libflatpak-doc
-    - libflatpak0
-  visiblename: flatpak
-  version: 1.18.4
-  origversion: 1.18.4-1
-  status: newest
-  maintainers:
-    - pkg-utopia-maintainers@lists.alioth.debian.org
-    - mak@debian.org
-    - smcv@debian.org
-  categories:
-    - misc
 - repo: openkylin_3_0
   subrepo: huanghe/main
   srcname: flatpak
@@ -1423,17 +1411,6 @@
 - repo: parabola
   subrepo: extra
   srcname: flatpak
-  binname: flatpak-docs
-  visiblename: flatpak-docs
-  version: 1.18.4
-  origversion: 1:1.18.4-2
-  status: newest
-  summary: Linux application sandboxing and distribution framework (formerly xdg-app) (documentation)
-  licenses:
-    - LGPL-2.1-or-later
-- repo: parabola
-  subrepo: extra
-  srcname: flatpak
   binname: flatpak
   visiblename: flatpak
   version: 1.18.4
@@ -1442,28 +1419,19 @@
   summary: Linux application sandboxing and distribution framework (formerly xdg-app)
   licenses:
     - LGPL-2.1-or-later
+- repo: parabola
+  subrepo: extra
+  srcname: flatpak
+  binname: flatpak-docs
+  visiblename: flatpak-docs
+  version: 1.18.4
+  origversion: 1:1.18.4-2
+  status: newest
+  summary: Linux application sandboxing and distribution framework (formerly xdg-app) (documentation)
+  licenses:
+    - LGPL-2.1-or-later
 - repo: parrot
   subrepo: parrot/main
-  srcname: flatpak
-  binnames:
-    - flatpak
-    - flatpak-tests
-    - gir1.2-flatpak-1.0
-    - libflatpak-dev
-    - libflatpak-doc
-    - libflatpak0
-  visiblename: flatpak
-  version: 1.16.6
-  origversion: 1.16.6-1~deb13u3
-  status: outdated
-  maintainers:
-    - pkg-utopia-maintainers@lists.alioth.debian.org
-    - mak@debian.org
-    - smcv@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
   srcname: flatpak
   binnames:
     - flatpak
@@ -1497,9 +1465,9 @@
 - repo: pld
   srcname: flatpak
   visiblename: flatpak
-  version: 1.18.2
-  origversion: 1.18.2-1
-  status: outdated
+  version: 1.18.4
+  origversion: 1.18.4-1
+  status: newest
 - repo: pureos_landing
   subrepo: landing/main
   srcname: flatpak
@@ -1534,6 +1502,26 @@
   version: 1.16.6
   origversion: 1.16.6-1~deb13u2
   status: outdated
+  maintainers:
+    - pkg-utopia-maintainers@lists.alioth.debian.org
+    - mak@debian.org
+    - smcv@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: flatpak
+  binnames:
+    - flatpak
+    - flatpak-tests
+    - gir1.2-flatpak-1.0
+    - libflatpak-dev
+    - libflatpak-doc
+    - libflatpak0
+  visiblename: flatpak
+  version: 1.18.4
+  origversion: 1.18.4-1
+  status: newest
   maintainers:
     - pkg-utopia-maintainers@lists.alioth.debian.org
     - mak@debian.org
@@ -1790,51 +1778,39 @@
   summary: system for distributing desktop applications on Linux
   licenses:
     - GNU Lesser General Public License, version 2.1 or later
-- repo: rocky_8
-  subrepo: AppStream
+- repo: eurolinux_8
+  subrepo: appstream
   srcname: flatpak
   visiblename: flatpak
-  version: 1.12.9
-  origversion: 1.12.9-9.el8_10
-  status: outdated
-  summary: Application deployment framework for desktop apps
-  maintainers:
-    - infrastructure@rockylinux.org
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: flatpak
-  visiblename: flatpak
-  version: 1.0.9
-  origversion: 1.0.9-10.amzn2.0.6
-  status: outdated
+  version: 1.8.5
+  origversion: 1.8.5-5.el8_5
+  status: legacy
   summary: Application deployment framework for desktop apps
   licenses:
     - LGPLv2+
   categories:
     - Unspecified
   vulnerable: true
-- repo: amazon_2
+- repo: eurolinux_8
+  subrepo: appstream
   srcname: flatpak
   visiblename: flatpak
-  version: 1.0.9
-  origversion: 1.0.9-10.amzn2.0.7
-  status: outdated
+  version: 1.8.7
+  origversion: 1.8.7-1.el8
+  status: legacy
   summary: Application deployment framework for desktop apps
   licenses:
     - LGPLv2+
   categories:
     - Unspecified
   vulnerable: true
-- repo: amazon_2
+- repo: eurolinux_8
+  subrepo: baseos
   srcname: flatpak
   visiblename: flatpak
-  version: 1.0.9
-  origversion: 1.0.9-10.amzn2.0.8
-  status: outdated
+  version: 1.8.5
+  origversion: 1.8.5-4.el8_4
+  status: legacy
   summary: Application deployment framework for desktop apps
   licenses:
     - LGPLv2+
@@ -1844,14 +1820,58 @@
 - repo: amazon_2
   srcname: flatpak
   visiblename: flatpak
-  version: 1.0.9
-  origversion: 1.0.9-8.amzn2
-  status: outdated
+  version: 1.0.2
+  origversion: 1.0.2-4.amzn2.0.1
+  status: legacy
   summary: Application deployment framework for desktop apps
   licenses:
     - LGPLv2+
   categories:
     - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: flatpak
+  visiblename: flatpak
+  version: 1.0.2
+  origversion: 1.0.2-5.amzn2.0.1
+  status: legacy
+  summary: Application deployment framework for desktop apps
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: flatpak
+  binnames:
+    - flatpak
+    - flatpak-devel
+    - flatpak-libs
+    - flatpak-selinux
+    - flatpak-session-helper
+    - flatpak-tests
+    - flatpak-debuginfo
+    - flatpak-debugsource
+  visiblename: flatpak
+  version: 1.10.5
+  origversion: 1.10.5-1.el9
+  status: legacy
+  summary: Application deployment framework for desktop apps
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: pclinuxos
+  srcname: flatpak
+  visiblename: flatpak
+  version: 1.16.1
+  origversion: 1.16.1-4pclos2026
+  status: outdated
+  summary: Application deployment framework for desktop apps
+  categories:
+    - System/Configuration/Packaging
   vulnerable: true
 - repo: almalinux_8
   subrepo: AppStream
@@ -2135,6 +2155,25 @@
   licenses:
     - LGPL-2.1-or-later
   vulnerable: true
+- repo: apertis_v2027
+  subrepo: v2027dev1/target
+  srcname: flatpak
+  binnames:
+    - flatpak
+    - flatpak-tests
+    - gir1.2-flatpak-1.0
+    - libflatpak-dev
+    - libflatpak-doc
+    - libflatpak0
+  visiblename: flatpak
+  version: 1.16.2
+  origversion: 1.16.2-1~deb13u1+apertis1
+  status: outdated
+  maintainers:
+    - pkg-utopia-maintainers@lists.alioth.debian.org
+    - mak@debian.org
+    - smcv@debian.org
+  vulnerable: true
 - repo: alpine_3_18
   subrepo: community
   srcname: flatpak
@@ -2191,19 +2230,6 @@
   licenses:
     - LGPL-2.1-or-later
   vulnerable: true
-- repo: centos_7
-  subrepo: updates
-  srcname: flatpak
-  visiblename: flatpak
-  version: 1.0.9
-  origversion: 1.0.9-12.el7_9
-  status: outdated
-  summary: Application deployment framework for desktop apps
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: alpine_3_19
   subrepo: community
   srcname: flatpak
@@ -2231,6 +2257,18 @@
     - aklitzing@gmail.com
   licenses:
     - LGPL-2.1-or-later
+  vulnerable: true
+- repo: amazon_2
+  srcname: flatpak
+  visiblename: flatpak
+  version: 0.8.8
+  origversion: 0.8.8-4.amzn2
+  status: legacy
+  summary: Application deployment framework for desktop apps
+  licenses:
+    - LGPLv2+
+  categories:
+    - Development/Tools
   vulnerable: true
 - repo: alpine_3_19
   subrepo: community
@@ -2750,27 +2788,6 @@
   licenses:
     - LGPL-2.1-or-later
   vulnerable: true
-- repo: deepin_23
-  subrepo: main
-  srcname: flatpak
-  binnames:
-    - flatpak
-    - flatpak-tests
-    - gir1.2-flatpak-1.0
-    - libflatpak-dev
-    - libflatpak-doc
-    - libflatpak0
-  visiblename: flatpak
-  version: 1.14.10
-  origversion: 1.14.10-1
-  status: outdated
-  maintainers:
-    - pkg-utopia-maintainers@lists.alioth.debian.org
-    - mak@debian.org
-    - smcv@debian.org
-  categories:
-    - admin
-  vulnerable: true
 - repo: amazon_2
   srcname: flatpak
   visiblename: flatpak
@@ -2806,42 +2823,6 @@
     - LGPLv2+
   categories:
     - Development/Tools
-  vulnerable: true
-- repo: amazon_2
-  srcname: flatpak
-  visiblename: flatpak
-  version: 0.8.8
-  origversion: 0.8.8-4.amzn2
-  status: legacy
-  summary: Application deployment framework for desktop apps
-  licenses:
-    - LGPLv2+
-  categories:
-    - Development/Tools
-  vulnerable: true
-- repo: amazon_2
-  srcname: flatpak
-  visiblename: flatpak
-  version: 1.0.2
-  origversion: 1.0.2-4.amzn2.0.1
-  status: legacy
-  summary: Application deployment framework for desktop apps
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: flatpak
-  visiblename: flatpak
-  version: 1.0.2
-  origversion: 1.0.2-5.amzn2.0.1
-  status: legacy
-  summary: Application deployment framework for desktop apps
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: amazon_2
   srcname: flatpak
@@ -2903,16 +2884,61 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: centos_stream_8
-  subrepo: AppStream
+- repo: amazon_2
   srcname: flatpak
   visiblename: flatpak
-  version: 1.8.5
-  origversion: 1.8.5-3.el8
-  status: legacy
+  version: 1.0.9
+  origversion: 1.0.9-10.amzn2.0.6
+  status: outdated
   summary: Application deployment framework for desktop apps
-  maintainers:
-    - bugs@centos.org
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: flatpak
+  visiblename: flatpak
+  version: 1.0.9
+  origversion: 1.0.9-10.amzn2.0.7
+  status: outdated
+  summary: Application deployment framework for desktop apps
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: flatpak
+  visiblename: flatpak
+  version: 1.0.9
+  origversion: 1.0.9-10.amzn2.0.8
+  status: outdated
+  summary: Application deployment framework for desktop apps
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: flatpak
+  visiblename: flatpak
+  version: 1.0.9
+  origversion: 1.0.9-10.amzn2
+  status: outdated
+  summary: Application deployment framework for desktop apps
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: flatpak
+  visiblename: flatpak
+  version: 1.0.9
+  origversion: 1.0.9-8.amzn2
+  status: outdated
+  summary: Application deployment framework for desktop apps
   licenses:
     - LGPLv2+
   categories:
@@ -2975,25 +3001,6 @@
     - mak@debian.org
     - smcv@debian.org
   vulnerable: true
-- repo: apertis_v2027
-  subrepo: v2027dev1/target
-  srcname: flatpak
-  binnames:
-    - flatpak
-    - flatpak-tests
-    - gir1.2-flatpak-1.0
-    - libflatpak-dev
-    - libflatpak-doc
-    - libflatpak0
-  visiblename: flatpak
-  version: 1.16.2
-  origversion: 1.16.2-1~deb13u1+apertis1
-  status: outdated
-  maintainers:
-    - pkg-utopia-maintainers@lists.alioth.debian.org
-    - mak@debian.org
-    - smcv@debian.org
-  vulnerable: true
 - repo: centos_7
   subrepo: os
   srcname: flatpak
@@ -3033,17 +3040,18 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: nix_stable_24_05
+- repo: centos_7
+  subrepo: updates
   srcname: flatpak
   visiblename: flatpak
-  version: 1.14.6
-  origversion: null
+  version: 1.0.9
+  origversion: 1.0.9-12.el7_9
   status: outdated
-  summary: Linux application sandboxing and distribution framework
-  maintainers:
-    - fallback-mnt-nix@repology
+  summary: Application deployment framework for desktop apps
   licenses:
-    - LGPL-2.1-or-later
+    - LGPLv2+
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: centos_7
   subrepo: updates
@@ -3154,6 +3162,21 @@
   visiblename: flatpak
   version: 1.8.5
   origversion: 1.8.5-2.el8
+  status: legacy
+  summary: Application deployment framework for desktop apps
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: centos_stream_8
+  subrepo: AppStream
+  srcname: flatpak
+  visiblename: flatpak
+  version: 1.8.5
+  origversion: 1.8.5-3.el8
   status: legacy
   summary: Application deployment framework for desktop apps
   maintainers:
@@ -3358,6 +3381,19 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: flatpak
+  visiblename: flatpak
+  version: 1.6.2
+  origversion: 1.6.2-6.el8_3
+  status: legacy
+  summary: Application deployment framework for desktop apps
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: centos_stream_10
   subrepo: AppStream
   srcname: flatpak
@@ -3430,22 +3466,13 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: eurolinux_9
+- repo: eurolinux_8
   subrepo: appstream
   srcname: flatpak
-  binnames:
-    - flatpak
-    - flatpak-devel
-    - flatpak-libs
-    - flatpak-selinux
-    - flatpak-session-helper
-    - flatpak-tests
-    - flatpak-debuginfo
-    - flatpak-debugsource
   visiblename: flatpak
-  version: 1.12.9
-  origversion: 1.12.9-3.el9_4
-  status: outdated
+  version: 1.8.5
+  origversion: 1.8.5-3.el8
+  status: legacy
   summary: Application deployment framework for desktop apps
   licenses:
     - LGPLv2+
@@ -3516,7 +3543,7 @@
     - misc
   vulnerable: true
 - repo: debian_12
-  subrepo: bookworm-security/main
+  subrepo: bookworm/main
   srcname: flatpak
   binnames:
     - flatpak
@@ -3537,7 +3564,7 @@
     - misc
   vulnerable: true
 - repo: debian_12
-  subrepo: bookworm/main
+  subrepo: bookworm-security/main
   srcname: flatpak
   binnames:
     - flatpak
@@ -3556,6 +3583,19 @@
     - smcv@debian.org
   categories:
     - misc
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: flatpak
+  visiblename: flatpak
+  version: 1.8.5
+  origversion: 1.8.5-4.el8_4
+  status: legacy
+  summary: Application deployment framework for desktop apps
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: deepin_unstable
   subrepo: main
@@ -3594,6 +3634,27 @@
     - pkg-utopia-maintainers@lists.alioth.debian.org
     - mak@debian.org
     - smcv@debian.org
+  vulnerable: true
+- repo: deepin_23
+  subrepo: main
+  srcname: flatpak
+  binnames:
+    - flatpak
+    - flatpak-tests
+    - gir1.2-flatpak-1.0
+    - libflatpak-dev
+    - libflatpak-doc
+    - libflatpak0
+  visiblename: flatpak
+  version: 1.14.10
+  origversion: 1.14.10-1
+  status: outdated
+  maintainers:
+    - pkg-utopia-maintainers@lists.alioth.debian.org
+    - mak@debian.org
+    - smcv@debian.org
+  categories:
+    - admin
   vulnerable: true
 - repo: devuan_4_0
   subrepo: chimaera/main
@@ -3703,106 +3764,6 @@
   visiblename: flatpak
   version: 1.6.2
   origversion: 1.6.2-5.el8_3
-  status: legacy
-  summary: Application deployment framework for desktop apps
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: flatpak
-  visiblename: flatpak
-  version: 1.6.2
-  origversion: 1.6.2-6.el8_3
-  status: legacy
-  summary: Application deployment framework for desktop apps
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: flatpak
-  visiblename: flatpak
-  version: 1.8.5
-  origversion: 1.8.5-3.el8
-  status: legacy
-  summary: Application deployment framework for desktop apps
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: flatpak
-  visiblename: flatpak
-  version: 1.8.5
-  origversion: 1.8.5-4.el8_4
-  status: legacy
-  summary: Application deployment framework for desktop apps
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: flatpak
-  visiblename: flatpak
-  version: 1.8.5
-  origversion: 1.8.5-5.el8_5
-  status: legacy
-  summary: Application deployment framework for desktop apps
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: flatpak
-  visiblename: flatpak
-  version: 1.8.7
-  origversion: 1.8.7-1.el8
-  status: legacy
-  summary: Application deployment framework for desktop apps
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: flatpak
-  visiblename: flatpak
-  version: 1.8.5
-  origversion: 1.8.5-4.el8_4
-  status: legacy
-  summary: Application deployment framework for desktop apps
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: flatpak
-  binnames:
-    - flatpak
-    - flatpak-devel
-    - flatpak-libs
-    - flatpak-selinux
-    - flatpak-session-helper
-    - flatpak-tests
-    - flatpak-debuginfo
-    - flatpak-debugsource
-  visiblename: flatpak
-  version: 1.10.5
-  origversion: 1.10.5-1.el9
   status: legacy
   summary: Application deployment framework for desktop apps
   licenses:
@@ -3921,6 +3882,28 @@
     - Unspecified
   vulnerable: true
 - repo: eurolinux_9
+  subrepo: appstream
+  srcname: flatpak
+  binnames:
+    - flatpak
+    - flatpak-devel
+    - flatpak-libs
+    - flatpak-selinux
+    - flatpak-session-helper
+    - flatpak-tests
+    - flatpak-debuginfo
+    - flatpak-debugsource
+  visiblename: flatpak
+  version: 1.12.9
+  origversion: 1.12.9-3.el9_4
+  status: outdated
+  summary: Application deployment framework for desktop apps
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_9
   subrepo: baseos
   srcname: flatpak
   binnames:
@@ -3965,28 +3948,6 @@
     - Unspecified
   vulnerable: true
 - repo: fedora_39
-  subrepo: release
-  srcname: flatpak
-  binnames:
-    - flatpak
-    - flatpak-devel
-    - flatpak-libs
-    - flatpak-selinux
-    - flatpak-session-helper
-    - flatpak-tests
-    - flatpak-debuginfo
-    - flatpak-debugsource
-  visiblename: flatpak
-  version: 1.15.4
-  origversion: 1.15.4-3.fc39
-  status: legacy
-  summary: Application deployment framework for desktop apps
-  licenses:
-    - LGPL-2.1-or-later
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_39
   subrepo: updates
   srcname: flatpak
   binnames:
@@ -4002,6 +3963,28 @@
   version: 1.15.10
   origversion: 1.15.10-1.fc39
   status: outdated
+  summary: Application deployment framework for desktop apps
+  licenses:
+    - LGPL-2.1-or-later
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_39
+  subrepo: release
+  srcname: flatpak
+  binnames:
+    - flatpak
+    - flatpak-devel
+    - flatpak-libs
+    - flatpak-selinux
+    - flatpak-session-helper
+    - flatpak-tests
+    - flatpak-debuginfo
+    - flatpak-debugsource
+  visiblename: flatpak
+  version: 1.15.4
+  origversion: 1.15.4-3.fc39
+  status: legacy
   summary: Application deployment framework for desktop apps
   licenses:
     - LGPL-2.1-or-later
@@ -4183,6 +4166,39 @@
     - LGPL-2.1+
   categories:
     - sys-apps
+  vulnerable: true
+- repo: pardus_21
+  subrepo: main
+  srcname: flatpak
+  binnames:
+    - flatpak
+    - flatpak-tests
+    - gir1.2-flatpak-1.0
+    - libflatpak-dev
+    - libflatpak-doc
+    - libflatpak0
+  visiblename: flatpak
+  version: 1.10.8
+  origversion: 1.10.8-0+deb11u2
+  status: outdated
+  maintainers:
+    - pkg-utopia-maintainers@lists.alioth.debian.org
+    - mak@debian.org
+    - smcv@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: nix_stable_24_05
+  srcname: flatpak
+  visiblename: flatpak
+  version: 1.14.6
+  origversion: null
+  status: outdated
+  summary: Linux application sandboxing and distribution framework
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - LGPL-2.1-or-later
   vulnerable: true
 - repo: nix_stable_24_11
   srcname: flatpak
@@ -4401,6 +4417,19 @@
     - System/Base
   vulnerable: true
 - repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: flatpak
+  visiblename: flatpak
+  version: 1.14.4
+  origversion: 1.14.4-150500.1.3
+  status: legacy
+  summary: OSTree based application bundles management
+  licenses:
+    - LGPL-2.1-or-later
+  categories:
+    - System/Packages
+  vulnerable: true
+- repo: opensuse_leap_15_5
   subrepo: updates/sle
   srcname: flatpak
   visiblename: flatpak
@@ -4452,19 +4481,6 @@
   categories:
     - System/Packages
   vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: flatpak
-  visiblename: flatpak
-  version: 1.14.4
-  origversion: 1.14.4-150500.1.3
-  status: legacy
-  summary: OSTree based application bundles management
-  licenses:
-    - LGPL-2.1-or-later
-  categories:
-    - System/Packages
-  vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: flatpak
@@ -4505,27 +4521,6 @@
     - System/Packages
   vulnerable: true
 - repo: pardus_21
-  subrepo: main
-  srcname: flatpak
-  binnames:
-    - flatpak
-    - flatpak-tests
-    - gir1.2-flatpak-1.0
-    - libflatpak-dev
-    - libflatpak-doc
-    - libflatpak0
-  visiblename: flatpak
-  version: 1.10.8
-  origversion: 1.10.8-0+deb11u2
-  status: outdated
-  maintainers:
-    - pkg-utopia-maintainers@lists.alioth.debian.org
-    - mak@debian.org
-    - smcv@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: pardus_21
   subrepo: updates/main
   srcname: flatpak
   binnames:
@@ -4545,16 +4540,6 @@
     - smcv@debian.org
   categories:
     - misc
-  vulnerable: true
-- repo: pclinuxos
-  srcname: flatpak
-  visiblename: flatpak
-  version: 1.16.1
-  origversion: 1.16.1-4pclos2026
-  status: outdated
-  summary: Application deployment framework for desktop apps
-  categories:
-    - System/Configuration/Packaging
   vulnerable: true
 - repo: pureos_amber
   subrepo: amber/main
@@ -4694,6 +4679,21 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: rocky_8
+  subrepo: AppStream
+  srcname: flatpak
+  visiblename: flatpak
+  version: 1.12.9
+  origversion: 1.12.9-9.el8_10
+  status: outdated
+  summary: Application deployment framework for desktop apps
+  maintainers:
+    - infrastructure@rockylinux.org
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: rocky_9
   subrepo: AppStream
   srcname: flatpak
@@ -4730,27 +4730,6 @@
     - desktop
   vulnerable: true
 - repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: flatpak
-  binnames:
-    - flatpak
-    - flatpak-tests
-    - gir1.2-flatpak-1.0
-    - libflatpak-dev
-    - libflatpak-doc
-    - libflatpak0
-  visiblename: flatpak
-  version: 0.11.3
-  origversion: 0.11.3-3
-  status: legacy
-  maintainers:
-    - pkg-utopia-maintainers@lists.alioth.debian.org
-    - mak@debian.org
-    - smcv@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_18_04
   subrepo: bionic-updates/universe
   srcname: flatpak
   binnames:
@@ -4771,8 +4750,8 @@
   categories:
     - universe/misc
   vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal-updates/universe
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
   srcname: flatpak
   binnames:
     - flatpak
@@ -4782,11 +4761,11 @@
     - libflatpak-doc
     - libflatpak0
   visiblename: flatpak
-  version: 1.6.5
-  origversion: 1.6.5-0ubuntu0.5
-  status: outdated
+  version: 0.11.3
+  origversion: 0.11.3-3
+  status: legacy
   maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
+    - pkg-utopia-maintainers@lists.alioth.debian.org
     - mak@debian.org
     - smcv@debian.org
   categories:
@@ -4813,8 +4792,8 @@
   categories:
     - universe/misc
   vulnerable: true
-- repo: ubuntu_22_04
-  subrepo: jammy-updates/universe
+- repo: ubuntu_20_04
+  subrepo: focal-updates/universe
   srcname: flatpak
   binnames:
     - flatpak
@@ -4824,8 +4803,8 @@
     - libflatpak-doc
     - libflatpak0
   visiblename: flatpak
-  version: 1.12.7
-  origversion: 1.12.7-1ubuntu0.1
+  version: 1.6.5
+  origversion: 1.6.5-0ubuntu0.5
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4850,6 +4829,27 @@
   status: outdated
   maintainers:
     - pkg-utopia-maintainers@lists.alioth.debian.org
+    - mak@debian.org
+    - smcv@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/universe
+  srcname: flatpak
+  binnames:
+    - flatpak
+    - flatpak-tests
+    - gir1.2-flatpak-1.0
+    - libflatpak-dev
+    - libflatpak-doc
+    - libflatpak0
+  visiblename: flatpak
+  version: 1.12.7
+  origversion: 1.12.7-1ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - mak@debian.org
     - smcv@debian.org
   categories:
