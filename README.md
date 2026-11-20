@@ -33,27 +33,27 @@ Total: **127,023** lines of code across **352** files in the top 5 languages.
 ## Release
 
 - **Latest**: `1.19.2` (2026-09-28)
-- **Last commit**: 2026-11-18
+- **Last commit**: 2026-11-19
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,117 · **Forks**: 533 · **Open issues**: 3,848 · **Contributors**: 283
+- **Stars**: 5,119 · **Forks**: 533 · **Open issues**: 3,849 · **Contributors**: 283
 
 ## Totals (cumulative)
 
-- **Releases**: 185 · **Merged PRs**: 1835 · **Open PRs**: 104 · **Closed issues**: 2898 · **Open issues**: 950 · **Commits**: 8831
+- **Releases**: 185 · **Merged PRs**: 1836 · **Open PRs**: 103 · **Closed issues**: 2898 · **Open issues**: 951 · **Commits**: 8832
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 0 | 20 | 13 | 4 | 16 | 60 |
-| last60d | 2026-09-20 | 3 | 62 | 34 | 10 | 30 | 116 |
-| 90d | 2026-08-21 | 4 | 79 | 36 | 20 | 36 | 144 |
-| last180d | 2026-05-23 | 7 | 141 | 46 | 47 | 50 | 352 |
-| 360d | 2025-11-24 | 19 | 246 | 55 | 135 | 78 | 529 |
-| last720d | 2024-11-29 | 23 | 369 | 62 | 278 | 175 | 780 |
+| 30d | 2026-10-21 | 0 | 21 | 12 | 4 | 15 | 61 |
+| last60d | 2026-09-21 | 3 | 56 | 32 | 10 | 30 | 117 |
+| 90d | 2026-08-22 | 4 | 80 | 35 | 20 | 37 | 145 |
+| last180d | 2026-05-24 | 7 | 142 | 45 | 47 | 51 | 353 |
+| 360d | 2025-11-25 | 19 | 246 | 54 | 135 | 79 | 530 |
+| last720d | 2024-11-30 | 23 | 370 | 61 | 277 | 176 | 781 |
 
 ## Release assets
 
@@ -64,7 +64,7 @@ Total: **127,023** lines of code across **352** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **319** distros on [repology.org](https://repology.org/project/flatpak). **67** are ✅ on the latest upstream release, **200** are ⚠️ on an older version.
+Reported by **319** distros on [repology.org](https://repology.org/project/flatpak). **68** are ✅ on the latest upstream release, **199** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -89,4 +89,4 @@ Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T10:30:26Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T10:03:50Z._
