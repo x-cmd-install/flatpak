@@ -38,7 +38,7 @@ Total: **127,023** lines of code across **352** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 5,120 · **Forks**: 533 · **Open issues**: 3,849 · **Contributors**: 283
+- **Stars**: 5,120 · **Forks**: 534 · **Open issues**: 3,849 · **Contributors**: 283
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **127,023** lines of code across **352** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 19 | 13 | 4 | 15 | 0 |
-| last60d | 2026-09-22 | 3 | 54 | 33 | 10 | 29 | 0 |
-| 90d | 2026-08-23 | 4 | 80 | 36 | 18 | 37 | 0 |
-| last180d | 2026-05-25 | 7 | 143 | 46 | 47 | 51 | 0 |
-| 360d | 2025-11-26 | 19 | 246 | 55 | 135 | 79 | 0 |
-| last720d | 2024-12-01 | 23 | 371 | 62 | 276 | 174 | 782 |
+| 30d | 2026-10-23 | 0 | 19 | 13 | 4 | 15 | 21 |
+| last60d | 2026-09-23 | 2 | 51 | 33 | 10 | 28 | 93 |
+| 90d | 2026-08-24 | 4 | 78 | 36 | 17 | 37 | 140 |
+| last180d | 2026-05-26 | 7 | 142 | 46 | 46 | 51 | 351 |
+| 360d | 2025-11-27 | 19 | 245 | 55 | 133 | 79 | 528 |
+| last720d | 2024-12-02 | 23 | 371 | 62 | 275 | 174 | 782 |
 
 ## Release assets
 
@@ -89,4 +89,4 @@ Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T08:23:15Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T08:38:21Z._
