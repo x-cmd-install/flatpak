@@ -24,6 +24,16 @@ x install flatpak
 | Sh | 6,093 | 1,216 | 2,026 | 51 |
 | Meson | 2,117 | 83 | 213 | 27 |
 
+## OpenSSF Scorecard 评分
+
+总评分: **6.5 / 10**
+
+评分最低的几项:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (3/10) — Found 1/3 approved changesets -- score normalized to 3
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/flatpak/flatpak>
@@ -38,7 +48,7 @@ x install flatpak
 
 ## 流行度
 
-- **Star**: 5,120 · **Fork**: 534 · **开放 issue**: 3,849 · **贡献者**: 283
+- **Star**: 5,121 · **Fork**: 534 · **开放 issue**: 3,849 · **贡献者**: 283
 
 ## 累计统计
 
@@ -48,12 +58,12 @@ x install flatpak
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 0 | 19 | 13 | 4 | 15 | 21 |
-| last60d | 2026-09-23 | 2 | 51 | 33 | 10 | 28 | 93 |
-| 90d | 2026-08-24 | 4 | 78 | 36 | 17 | 37 | 140 |
-| last180d | 2026-05-26 | 7 | 142 | 46 | 46 | 51 | 351 |
-| 360d | 2025-11-27 | 19 | 245 | 55 | 133 | 79 | 528 |
-| last720d | 2024-12-02 | 23 | 371 | 62 | 275 | 174 | 782 |
+| 30d | 2026-10-24 | 0 | 19 | 13 | 4 | 15 | 21 |
+| last60d | 2026-09-24 | 2 | 51 | 33 | 10 | 28 | 93 |
+| 90d | 2026-08-25 | 4 | 76 | 35 | 17 | 37 | 140 |
+| last180d | 2026-05-27 | 7 | 142 | 46 | 46 | 51 | 351 |
+| 360d | 2025-11-28 | 19 | 245 | 55 | 132 | 78 | 528 |
+| last720d | 2024-12-03 | 23 | 371 | 62 | 275 | 174 | 782 |
 
 ## Release 资产
 
@@ -89,4 +99,4 @@ flatpak 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261122.yml` · 2026-11-22T08:38:22Z._
+_数据快照: `data/card/261123.yml` · 2026-11-23T09:09:11Z._
