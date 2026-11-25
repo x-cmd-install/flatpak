@@ -14,15 +14,15 @@ x install flatpak
 
 ## Code insight
 
-Total: **127,023** lines of code across **352** files in the top 5 languages.
+Total: **127,472** lines of code across **357** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 90,430 | 10,368 | 18,670 | 137 |
+| C | 90,768 | 10,433 | 18,762 | 140 |
 | Xml | 12,893 | 1,250 | 1,925 | 57 |
-| CHeader | 11,140 | 2,362 | 1,458 | 80 |
-| Sh | 6,093 | 1,216 | 2,026 | 51 |
-| Meson | 2,117 | 83 | 213 | 27 |
+| CHeader | 11,152 | 2,369 | 1,465 | 81 |
+| Sh | 6,174 | 1,254 | 2,059 | 52 |
+| Meson | 2,135 | 83 | 214 | 27 |
 
 ## OpenSSF Scorecard
 
@@ -42,53 +42,35 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `1.19.2` (2026-09-28)
-- **Last commit**: 2026-11-20
+- **Latest**: `1.18.6` (2026-11-24)
+- **Last commit**: 2026-11-24
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,124 · **Forks**: 534 · **Open issues**: 3,849 · **Contributors**: 284
+- **Stars**: 5,123 · **Forks**: 534 · **Open issues**: 3,853 · **Contributors**: 284
 
 ## Totals (cumulative)
 
-- **Releases**: 185 · **Merged PRs**: 1837 · **Open PRs**: 105 · **Closed issues**: 2900 · **Open issues**: 949 · **Commits**: 8833
+- **Releases**: 187 · **Merged PRs**: 1837 · **Open PRs**: 107 · **Closed issues**: 2900 · **Open issues**: 953 · **Commits**: 8848
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 19 | 14 | 4 | 14 | 0 |
-| last60d | 2026-09-25 | 2 | 50 | 34 | 8 | 28 | 0 |
-| 90d | 2026-08-26 | 4 | 75 | 36 | 17 | 36 | 0 |
-| last180d | 2026-05-28 | 7 | 142 | 47 | 46 | 51 | 0 |
-| 360d | 2025-11-29 | 19 | 245 | 56 | 131 | 78 | 0 |
-| last720d | 2024-12-04 | 23 | 370 | 63 | 275 | 174 | 782 |
+| 30d | 2026-10-26 | 2 | 18 | 16 | 4 | 18 | 36 |
+| last60d | 2026-09-26 | 4 | 50 | 36 | 8 | 32 | 108 |
+| 90d | 2026-08-27 | 6 | 73 | 37 | 17 | 40 | 155 |
+| last180d | 2026-05-29 | 9 | 142 | 49 | 46 | 55 | 366 |
+| 360d | 2025-11-30 | 21 | 245 | 58 | 129 | 82 | 543 |
+| last720d | 2024-12-05 | 25 | 370 | 65 | 275 | 178 | 797 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [flatpak-1.18.4.tar.xz](https://github.com/flatpak/flatpak/releases/download/1.18.4/flatpak-1.18.4.tar.xz) | 1.3 MiB | `other` |
-| [flatpak-1.18.4.tar.xz.sha256sum](https://github.com/flatpak/flatpak/releases/download/1.18.4/flatpak-1.18.4.tar.xz.sha256sum) | 88 B | `other` |
-
-## Distribution status
-
-Reported by **321** distros on [repology.org](https://repology.org/project/flatpak). **68** are ✅ on the latest upstream release, **202** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.18.4` | ✅ latest |
-| Debian 14 | `1.18.4` | ✅ latest |
-| Debian 13 | `1.16.6` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.16.6` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.14.6` | ⚠️ outdated |
-| Arch | `1.18.4` | ✅ latest |
-| Fedora rawhide | `1.19.2` | devel |
-| Nix unstable | `1.18.4` | ✅ latest |
-| Void | `1.18.4` | ✅ latest |
-| Alpine edge | `1.18.4` | ✅ latest |
-| openSUSE Tumbleweed | `1.18.4` | ✅ latest |
+| [flatpak-1.18.6.tar.xz](https://github.com/flatpak/flatpak/releases/download/1.18.6/flatpak-1.18.6.tar.xz) | 1.3 MiB | `other` |
+| [flatpak-1.18.6.tar.xz.sha256sum](https://github.com/flatpak/flatpak/releases/download/1.18.6/flatpak-1.18.6.tar.xz.sha256sum) | 88 B | `other` |
 
 ## Improve this data
 
@@ -99,4 +81,4 @@ Install metadata for flatpak lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:35:18Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:50:14Z._
