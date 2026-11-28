@@ -7,7 +7,7 @@ about:
   latestVersion: "1.18.6"
   latestRelease: "1.18.6"
   latestPrerelease: "1.19.4"
-  collectedAt: 2026-11-27T09:43:56Z
+  collectedAt: 2026-11-28T09:11:28Z
 timeline:
   created: 2016-05-19
   lastCommit: 2026-11-26
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-11-24
   lastPrerelease: 2026-11-24
 popularity:
-  star: 5126
+  star: 5128
   watcher: 87
   fork: 537
   release: 187
@@ -31,7 +31,7 @@ language:
 totalBytes: 5419306
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 2
     mergedPR: 20
     openPR: 13
@@ -39,15 +39,15 @@ recent:
     openIssue: 15
     commit: 39
   last60d:
-    since: 2026-09-28
-    release: 4
-    mergedPR: 52
+    since: 2026-09-29
+    release: 2
+    mergedPR: 49
     openPR: 36
     closedIssue: 10
     openIssue: 33
     commit: 112
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 5
     mergedPR: 77
     openPR: 37
@@ -55,7 +55,7 @@ recent:
     openIssue: 41
     commit: 159
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 9
     mergedPR: 146
     openPR: 49
@@ -63,15 +63,15 @@ recent:
     openIssue: 56
     commit: 370
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 21
-    mergedPR: 247
+    mergedPR: 246
     openPR: 58
     closedIssue: 130
     openIssue: 83
     commit: 547
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 25
     mergedPR: 374
     openPR: 65
@@ -87,7 +87,7 @@ total:
   commit: 8852
 ---
 path: /home/runner/.x-repo/github.com/flatpak/flatpak
-collectedAt: 2026-11-27T09:44:10Z
+collectedAt: 2026-11-28T09:11:40Z
 loc:
   C:
     code: 90768
@@ -295,4 +295,4 @@ checks:
       - 'Info:   0 out of  14 GitHub-owned GitHubAction dependencies pinned'
       - 'Info:   0 out of   3 third-party GitHubAction dependencies pinned'
 ---
-{"id":456865928,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOA4eFkM4bOziI","tag_name":"1.18.6","target_commitish":"main","name":"1.18.6","draft":false,"immutable":true,"prerelease":false,"created_at":"2026-11-24T14:10:44Z","updated_at":"2026-11-24T16:50:08Z","published_at":"2026-11-24T14:18:34Z","assets":[{"id":787483275,"node_id":"RA_kwDOA4eFkM4u8AqL","name":"flatpak-1.18.6.tar.xz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"raw","state":"uploaded","size":1366064,"digest":"sha256:a822afacfc3a36196dbf7fa567f8d366114779564146903fceef0805b5147a14","download_count":496,"created_at":"2026-11-24T14:18:33Z","updated_at":"2026-11-24T14:18:33Z"},{"id":787483225,"node_id":"RA_kwDOA4eFkM4u8ApZ","name":"flatpak-1.18.6.tar.xz.sha256sum","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"raw","state":"uploaded","size":88,"digest":"sha256:8bac535baf040be57335a65f84ffb51627a18432d89ff82491eeee54249cd111","download_count":7,"created_at":"2026-11-24T14:18:32Z","updated_at":"2026-11-24T14:18:32Z"}],"body":"Security fixes:\r\n\r\n* Prevent a compromised or malicious app/runtime/extension with extra-data\r\n  from creating setuid root files on the host system when installed\r\n  (CVE-2026-133842, [GHSA-p4mw-6jfq-r82r](https://github.com/flatpak/flatpak/security/advisories/GHSA-p4mw-6jfq-r82r); thanks to RoyalOughtness)\r\n\r\n* Prevent a compromised or malicious app from escaping the sandbox by\r\n  manipulating file descriptor passing via flatpak-portal\r\n  (CVE-2026-133845, [GHSA-5jrj-948r-2wx6](https://github.com/flatpak/flatpak/security/advisories/GHSA-5jrj-948r-2wx6); thanks to refi64)\r\n\r\nOther bug fixes:\r\n\r\n* Fix a regression in the CI release workflow now that Ubuntu 26.04\r\n  is the default","reactions":{"total_count":2,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":2,"rocket":0,"eyes":0}}
+{"id":456865928,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOA4eFkM4bOziI","tag_name":"1.18.6","target_commitish":"main","name":"1.18.6","draft":false,"immutable":true,"prerelease":false,"created_at":"2026-11-24T14:10:44Z","updated_at":"2026-11-24T16:50:08Z","published_at":"2026-11-24T14:18:34Z","assets":[{"id":787483275,"node_id":"RA_kwDOA4eFkM4u8AqL","name":"flatpak-1.18.6.tar.xz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"raw","state":"uploaded","size":1366064,"digest":"sha256:a822afacfc3a36196dbf7fa567f8d366114779564146903fceef0805b5147a14","download_count":728,"created_at":"2026-11-24T14:18:33Z","updated_at":"2026-11-24T14:18:33Z"},{"id":787483225,"node_id":"RA_kwDOA4eFkM4u8ApZ","name":"flatpak-1.18.6.tar.xz.sha256sum","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"raw","state":"uploaded","size":88,"digest":"sha256:8bac535baf040be57335a65f84ffb51627a18432d89ff82491eeee54249cd111","download_count":10,"created_at":"2026-11-24T14:18:32Z","updated_at":"2026-11-24T14:18:32Z"}],"body":"Security fixes:\r\n\r\n* Prevent a compromised or malicious app/runtime/extension with extra-data\r\n  from creating setuid root files on the host system when installed\r\n  (CVE-2026-133842, [GHSA-p4mw-6jfq-r82r](https://github.com/flatpak/flatpak/security/advisories/GHSA-p4mw-6jfq-r82r); thanks to RoyalOughtness)\r\n\r\n* Prevent a compromised or malicious app from escaping the sandbox by\r\n  manipulating file descriptor passing via flatpak-portal\r\n  (CVE-2026-133845, [GHSA-5jrj-948r-2wx6](https://github.com/flatpak/flatpak/security/advisories/GHSA-5jrj-948r-2wx6); thanks to refi64)\r\n\r\nOther bug fixes:\r\n\r\n* Fix a regression in the CI release workflow now that Ubuntu 26.04\r\n  is the default","reactions":{"total_count":2,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":2,"rocket":0,"eyes":0}}
